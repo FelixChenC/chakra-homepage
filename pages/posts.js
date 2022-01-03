@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem, GridItemStyle } from '../components/grid-item'
+import { GridItem } from '../components/grid-item'
 
 import thumbFishWorkflow from '../public/images/contents/youtube-fish-workflow.jpg'
 import thumbMyDeskSetup from '../public/images/contents/youtube-my-desk-setup.jpg'

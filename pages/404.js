@@ -3,7 +3,6 @@ import {
   Box,
   Heading,
   Text,
-  Contianer,
   Divider,
   Button,
   Container
