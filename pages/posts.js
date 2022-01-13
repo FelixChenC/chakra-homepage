@@ -3,44 +3,44 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumbFishWorkflow from '../public/images/contents/youtube-fish-workflow.jpg'
-import thumbMyDeskSetup from '../public/images/contents/youtube-my-desk-setup.jpg'
-import thumb500PaidUsers from '../public/images/contents/blog-500-paid-users.jpg'
-import thumbFinancialGoal from '../public/images/contents/blog-financial-goal.png'
-import thumbHowToPriceYourself from '../public/images/contents/blog-how-to-price-yourself.jpg'
-import thumb50xFaster from '../public/images/contents/youtube-50x-faster.jpg'
+import thumbDukemon from '../public/images/contents/dukemon.jpg'
+import thumbZaku from '../public/images/contents/zaku_front.jpg'
+import thumbJustice from '../public/images/contents/justice.jpg'
+import thumbStrikeRouge from '../public/images/contents/strike-rouge.jpg'
+import thumbStrike from '../public/images/contents/strike-front.jpg'
+import thumbAstray from '../public/images/contents/astrayKai.jpg'
 
 const Posts = () => (
   <Layout title="Posts">
     <Container>
       <Heading as="h4" fontSize={20} mb={4}>
-        Popular Posts
+        Instagram Posts
       </Heading>
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="My Fish workflow"
-            thumbnail={thumbFishWorkflow}
-            href="www.youtube.com/watch?v=KKxhf50FIPI"
+            title="Dukemon"
+            thumbnail={thumbDukemon}
+            href="https://www.instagram.com/p/CXcHjgcOhzI/"
           />
           <GridItem
-            title="My Desk setup"
-            thumbnail={thumbMyDeskSetup}
-            href="www.youtube.com/watch?v=10FDMwDln0E"
+            title="Zaku Warrior"
+            thumbnail={thumbZaku}
+            href="https://www.instagram.com/p/CXe1oxOOIf1/"
           />
         </SimpleGrid>
       </Section>
       <Section delay={0.5}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="How I've Attracted The first 500 Paid Users For My SaaS that costs $5/mo"
-            thumbnail={thumb500PaidUsers}
-            href="https://blog.inkdrop.app/500-paid-user"
+            title="Justice Gundam"
+            thumbnail={thumbJustice}
+            href="https://www.instagram.com/p/CXsdpCGux1C/"
           />
           <GridItem
-            title="I stopped setting a financial goal for my Saas"
-            thumbnail={thumbFinancialGoal}
-            href="https://blog.inkdrop.app/i-stopped-setting-a-financial"
+            title="Strike Rouge Gundam"
+            thumbnail={thumbStrikeRouge}
+            href="https://www.instagram.com/p/CXwD4cju9J0/"
           />
         </SimpleGrid>
       </Section>
@@ -48,14 +48,14 @@ const Posts = () => (
       <Section delay={0.5}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="How to Price yourself as a Freelance Developer"
-            thumbnail={thumbHowToPriceYourself}
-            href="https://blog.inkdrop.app/how-to-price-yourself-as-a-freelance-developer"
+            title="Aile Strike Gundam"
+            thumbnail={thumbStrike}
+            href="https://www.instagram.com/p/CYQmrDGu_Yf/"
           />
           <GridItem
-            title="I made my React Native app 50x faster"
-            thumbnail={thumb50xFaster}
-            href="https://www.youtube.com/watch?v=vj723NlrIQc"
+            title="Red Astray Gundam Kai"
+            thumbnail={thumbAstray}
+            href="https://www.instagram.com/p/CYS9-Q5OTdS/"
           />
         </SimpleGrid>
       </Section>

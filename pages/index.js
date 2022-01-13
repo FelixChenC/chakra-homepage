@@ -19,8 +19,8 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoGithub, IoLogoDiscord } from 'react-icons/io5'
-import thumbYoutube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import thumbYoutube from '../public/images/strike.jpg'
+import thumbInkdrop from '../public/images/zaku.jpg'
 
 const Page = () => {
   return (
@@ -41,7 +41,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Felix Chen
             </Heading>
-            <p>Some random title (builder/developer/designer)</p>
+            <p>QA Engineer (Front-end Developer)</p>
           </Box>
           <Box
             flexShrink={0}
@@ -56,7 +56,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/takuya.jpg"
+              src="/images/profile.jpg"
               alt="Profile Image"
             />
           </Box>
@@ -66,21 +66,20 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Sitting in the sun, away from everyone who had done him harm in the
-            past, he quietly listened to those who roamed by. He felt at peace
-            in the moment, hoping it would last, but knowing the reprieve would
-            soon come to an end. He closed his eyes, the sun beating down on
-            face and he smiled. He smiled for the first time in as long as he
-            could remember.{' '}
-            <NextLink href="/works/inkdrop">
-              <Link>InkDrop</Link>
+            As a QA Engineer, working to improve the user experience, test new
+            feature/function within the app, and perform exploratory testing to
+            find rare bugs and defects. Prepare test plans, test case and
+            automation scripts for regression testing. Please checkout this
+            awesome food/money saving app -
+            <NextLink href="/works/flashfood">
+              <Link> Flashfood</Link>
             </NextLink>
             .
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
               <Button rightIcon={<ChevronRightIcon />} colorschema="teal">
-                My portfolio
+                Apps I Worked On
               </Button>
             </NextLink>
           </Box>
@@ -89,10 +88,6 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
-          <BioSection>
-            <BioYear>1993</BioYear>
-            Born in Taishan(台山), China
-          </BioSection>
           <BioSection>
             <BioYear>2017</BioYear>
             Completed Bachelor&apos;s Degree in University Of Waterloo
@@ -144,18 +139,18 @@ const Page = () => {
                   colorScheme="teal"
                   leftIcon={<Icon as={IoLogoTwitter} />}
                 >
-                  @Darkshader
+                  #felix_darkshader
                 </Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://discord.gg/random" target="_blank">
+              <Link href="https://discord.gg/HXd9Ddmv" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
                   leftIcon={<Icon as={IoLogoDiscord} />}
                 >
-                  Discord
+                  Felix&apos;s hobby and study house
                 </Button>
               </Link>
             </ListItem>
@@ -163,18 +158,18 @@ const Page = () => {
 
           <SimpleGrid columns={[1, 2, 2]} gap={6}>
             <GridItem
-              href="https://www.youtube.com/devaslife"
-              title="Dev as Life"
+              href="https://www.instagram.com/p/CYQmrDGu_Yf/"
+              title="Metal build Strike Gundam"
               thumbnail={thumbYoutube}
             >
-              My Youtube channel
+              Aile Strike Gundam
             </GridItem>
             <GridItem
-              href="https://www.inkdrop.app/"
-              title="Inkdrop"
+              href="https://www.instagram.com/p/CXhE_8Yu2UP/"
+              title="Zaku Warrior in custom paint"
               thumbnail={thumbInkdrop}
             >
-              A Markdown note-taking app
+              Zaku Warrior
             </GridItem>
           </SimpleGrid>
         </Section>

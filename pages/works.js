@@ -3,29 +3,33 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
+import thumbFlashfood from '../public/images/flashfood.jpg'
+import thumbLego from '../public/images/sharelego.png'
 
 const Works = () => {
   return (
     <Layout>
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
-          Works
+          Apps
         </Heading>
         <SimpleGrid column={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-              A markdown note-taking app
+            <WorkGridItem
+              id="flashfood"
+              title="Flashfood"
+              thumbnail={thumbFlashfood}
+            >
+              Food saving App for both shopper and grocery store
             </WorkGridItem>
           </Section>
           <Section>
             <WorkGridItem
-              id="walknote"
-              title="walknote"
-              thumbnail={thumbWalknote}
+              id="shareLego"
+              title="ShareLego"
+              thumbnail={thumbLego}
             >
-              Music recommandation app
+              A website that can share your Lego collection to other people.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
