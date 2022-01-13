@@ -8,7 +8,6 @@ import thumbZaku from '../public/images/contents/zaku_front.jpg'
 import thumbJustice from '../public/images/contents/justice.jpg'
 import thumbStrikeRouge from '../public/images/contents/strike-rouge.jpg'
 import thumbStrike from '../public/images/contents/strike-front.jpg'
-import thumbAstray from '../public/images/contents/astrayKai.jpg'
 
 const Posts = () => (
   <Layout title="Posts">
@@ -51,11 +50,6 @@ const Posts = () => (
             title="Aile Strike Gundam"
             thumbnail={thumbStrike}
             href="https://www.instagram.com/p/CYQmrDGu_Yf/"
-          />
-          <GridItem
-            title="Red Astray Gundam Kai"
-            thumbnail={thumbAstray}
-            href="https://www.instagram.com/p/CYS9-Q5OTdS/"
           />
         </SimpleGrid>
       </Section>
