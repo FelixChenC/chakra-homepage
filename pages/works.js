@@ -5,6 +5,7 @@ import Layout from '../components/layouts/article'
 
 import thumbFlashfood from '../public/images/flashfood.jpg'
 import thumbLego from '../public/images/sharelego.png'
+import thumbTripAdvisor from '../public/images/tripAdvisor.png'
 
 const Works = () => {
   return (
@@ -16,11 +17,12 @@ const Works = () => {
         <SimpleGrid column={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
-              id="flashfood"
-              title="Flashfood"
-              thumbnail={thumbFlashfood}
+              id="tripadvisor"
+              title="TripAdvisor"
+              thumbnail={thumbTripAdvisor}
             >
-              Food saving App for both shopper and grocery store
+              A website that show all available restaurant, hotel, and
+              attraction around you.
             </WorkGridItem>
           </Section>
           <Section>
@@ -30,6 +32,15 @@ const Works = () => {
               thumbnail={thumbLego}
             >
               A website that can share your Lego collection to other people.
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="flashfood"
+              title="Flashfood"
+              thumbnail={thumbFlashfood}
+            >
+              Food saving App for both shopper and grocery store
             </WorkGridItem>
           </Section>
         </SimpleGrid>

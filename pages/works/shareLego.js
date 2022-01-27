@@ -9,7 +9,7 @@ const Work = () => {
     <Layout title="ShareLego">
       <Container>
         <Title>
-          Share Your Lego <Badge>2022</Badge>
+          Share Your Lego <Badge>web application</Badge>
         </Title>
         <P>
           A social media platform like app, user can sign in with their google
