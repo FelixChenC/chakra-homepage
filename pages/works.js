@@ -6,6 +6,7 @@ import Layout from '../components/layouts/article'
 import thumbFlashfood from '../public/images/flashfood.jpg'
 import thumbLego from '../public/images/sharelego.png'
 import thumbTripAdvisor from '../public/images/tripAdvisor.png'
+import thumbRealtor from '../public/images/realtor1.png'
 
 const Works = () => {
   return (
@@ -32,6 +33,11 @@ const Works = () => {
               thumbnail={thumbLego}
             >
               A website that can share your Lego collection to other people.
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem id="realtor" title="Realtor" thumbnail={thumbRealtor}>
+              A website that search different property to rent or buy.
             </WorkGridItem>
           </Section>
           <Section>
